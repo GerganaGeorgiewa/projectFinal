@@ -1,0 +1,262 @@
+html, body {
+  font-family: Montserrat, sans-serif;
+}
+html a, body a {
+  text-decoration: none;
+  text-transform: none;
+  color: #ff7bad;
+}
+
+.mainHeader {
+  box-shadow: 0 12px 20px rgba(255, 123, 173, 0.3);
+  color: #ff7bad;
+  background-color: rgba(243, 231, 228, 0.51);
+}
+.mainHeader ul {
+  margin: 0;
+  padding: 0;
+}
+.mainHeader ul li {
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+}
+.mainHeader ul li input {
+  color: #ffa6d2;
+  background-color: #f3e7e4;
+  border-top: none;
+  border-left: none;
+}
+.mainHeader ul li a {
+  text-decoration: none;
+  color: #ff7bad;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.headerLeft {
+  display: block;
+  float: left;
+}
+
+.headerRight {
+  display: inline-block;
+  float: right;
+}
+
+.headerLeft a {
+  text-decoration: none;
+  width: 197px;
+  height: 49px;
+  font-size: 43px;
+  color: #FF7BAD;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.16);
+}
+
+#mainMenu {
+  font-size: 20px;
+  padding: 15px 18px;
+}
+
+#mainMenu ul li a:hover {
+  opacity: 0.7;
+}
+
+.mainSide {
+  width: 297px;
+  height: 1000px;
+  float: left;
+  margin-top: 25px;
+}
+
+.sideMenu {
+  display: block;
+  margin-bottom: 0;
+  padding-left: 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+}
+.sideMenu li {
+  list-style: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.sideMenu li a {
+  display: block;
+  width: 297px;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #FF7BAD;
+  background-color: #f3e7e4;
+  border-right: none;
+  border-bottom: none;
+}
+
+.invisibleMenu {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease-out;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  left: 300px;
+}
+.invisibleMenu li {
+  list-style: none;
+}
+.invisibleMenu li a {
+  text-decoration: none;
+}
+
+.invisibleMenu li a {
+  width: 257px;
+  color: #FF7BAD;
+  background-color: #f3e7e4;
+  border-right: none;
+  border-bottom: none;
+}
+
+.sideMenu li:hover .invisibleMenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  width: 257px;
+}
+
+.pageContent {
+  float: right;
+  width: 800px;
+  margin-top: 15px;
+}
+.pageContent h2 {
+  color: #FF7BAD;
+  font-size: 37px;
+}
+.pageContent p {
+  color: grey;
+}
+
+.listItem {
+  float: left;
+  width: 320px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.listItemPic img {
+  display: block;
+  width: 100%;
+  height: 215px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.products h3 {
+  color: #FF7BAD;
+  text-transform: uppercase;
+}
+
+.listItemText a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: #FF7BAD;
+}
+.listItemText p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  color: grey;
+}
+
+.listItem:hover .listItemText {
+  height: auto;
+}
+
+.buyButton a {
+  display: block;
+  background: #c127ff;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 45px;
+  border-radius: 15px;
+}
+
+.listItem:nth-child(2n) {
+  margin-right: 0;
+}
+
+.listItem:nth-child(2n+1) {
+  clear: both;
+}
+
+#scroll-to-top-btn {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.profile {
+  display: block;
+  float: left;
+  width: 500px;
+  padding: 0;
+  margin-top: 40px;
+  text-align: center;
+}
+.profile h3 {
+  color: #FF7BAD;
+}
+
+.forgottenPass a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+.newRegistration {
+  display: block;
+  float: right;
+  width: 600px;
+  margin-top: 40px;
+  text-align: center;
+}
+.newRegistration h3 {
+  color: #FF7BAD;
+}
+.newRegistration p {
+  color: grey;
+}
+.newRegistration ol li {
+  color: grey;
+}
+
+.formPassword label {
+  width: 165px;
+  padding-left: 90px;
+}
+
+.slider div {
+  text-align: center;
+}
+
+.slider div img {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style1.css.map */
